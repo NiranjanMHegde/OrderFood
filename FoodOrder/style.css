@@ -1,0 +1,130 @@
+/* Navbar styles */
+.navbar-nav ms-auto {
+    margin-right: 25rem;
+}
+
+/* Body styles */
+.body {
+    background-color: rgb(47, 219, 219);
+}
+
+/* Title section styles */
+#title {
+    background: linear-gradient(to right, rgba(231, 224, 7, 0.3) 50%, rgba(231, 7, 134, 0.3) 0%);
+    color: #fff;
+}
+
+/* Navbar styles */
+.navbar {
+    background-color: rgb(231, 76, 76);
+}
+
+.navbar-brand {
+    font-family: "Arial";
+    color: solid black;
+    font-size: x-large;
+    font-weight: bold;
+}
+
+.nav-items {
+    padding: 0 20px;
+}
+
+.nav-link {
+    font-family: "Arial";
+    font-size: 1rem;
+    color: black;
+    font-weight: bolder;
+}
+
+.nav-link:hover {
+    color: #f0e511;
+    font-style: italic;
+}
+
+/* General styles */
+.row {
+    margin-left: 2rem;
+}
+
+h1 {
+    font-family: "Arial";
+    color: black;
+}
+
+pre {
+    font-family: "Arial";
+    color: black;
+}
+
+/* Info section styles */
+#info {
+    background: linear-gradient(to right, rgba(231, 224, 7, 0.3) 50%, rgba(231, 7, 134, 0.3) 0%);
+}
+
+/* Grid styles */
+.gridcon {
+    margin-left: 5rem;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 15rem 15rem;
+}
+
+.gridcon img {
+    border: 15px solid rgba(231, 224, 7, 0.2);
+    width: 100%;
+    height: 100%;
+    display: flex;
+    margin: 1.66%;
+    object-fit: cover;
+}
+
+.gridcon img:nth-child(2) {
+    grid-row: span 2;
+}
+
+/* Centering styles for the larger container */
+.center-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+}
+
+/* Box styles */
+.box {
+    width: 25rem;
+    height: 15rem;
+    margin-right: 10rem;
+    border: 1px solid #ccc;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: rgb(231, 76, 76);
+}
+
+/* Image container styles */
+.image-container {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+.image-container img {
+    width: 45px;
+    height: 25px;
+    object-fit: cover;
+}
+
+/* Clickable word styles */
+.clickable-word {
+    text-align: left;
+}
+
+.clickable-word a {
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+}
